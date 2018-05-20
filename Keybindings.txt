@@ -1,0 +1,25 @@
+{
+    "keys": [
+        {
+            "name": "forward",
+            "key": [
+                "e",
+                "right"
+            ]
+        },
+        {
+            "name": "backward",
+            "key": [
+                "a",
+                "left"
+            ]
+        },
+        {
+            "name": "jump",
+            "key": [
+                "w",
+                "up"
+            ]
+        }
+    ]
+}

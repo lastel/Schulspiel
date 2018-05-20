@@ -1,0 +1,44 @@
+{
+    "scores": [
+        {
+            "name": "Kumpelinus",
+            "score": 2222
+        },
+        {
+            "name": "BOSS",
+            "score": 2001
+        },
+        {
+            "score": 2000,
+            "name": "Hallo"
+        },
+        {
+            "score": 1500,
+            "name": "Winner"
+        },
+        {
+            "score": 1002,
+            "name": "Hi"
+        },
+        {
+            "score": 1002,
+            "name": "Hi"
+        },
+        {
+            "score": 1002,
+            "name": "Hi"
+        },
+        {
+            "score": 1001,
+            "name": "Hi"
+        },
+        {
+            "score": 1001,
+            "name": "Hi"
+        },
+        {
+            "name": "Kumpelinus",
+            "score": 1001
+        }
+    ]
+}

@@ -9,6 +9,7 @@ from Musik import Musik
 from Write_score import *
 from Keybinding import *
 from Change_Texture import *
+from Exec_Shell import *
 #import LoadTextures
 
 pygame.init()
@@ -45,6 +46,10 @@ Animation_thread.start()
 
 Musik_thread = Musik(False)
 Musik_thread.start()
+
+ExecShell = ExecuteShell()
+ExecShell.daemon = True
+ExecShell.start()
 
 SpielFeld.fill(WEISS)
 
@@ -842,6 +847,8 @@ while mainloop2:
 
 Musik_thread.running = False
 pygame.quit()
+
+ExecShell.stop()
 
 #print()
 #print("Das ? ist an Der Stelle:")

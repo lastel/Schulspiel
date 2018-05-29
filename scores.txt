@@ -2,7 +2,15 @@
     "scores": [
         {
             "name": "Name",
+            "score": 295
+        },
+        {
+            "name": "Name",
             "score": 204
+        },
+        {
+            "name": "Name",
+            "score": 198
         },
         {
             "name": "Name",
@@ -26,19 +34,11 @@
         },
         {
             "name": "Name",
-            "score": 49
+            "score": 55
         },
         {
             "name": "Name",
-            "score": 37
-        },
-        {
-            "name": "Name",
-            "score": 29
-        },
-        {
-            "name": "Name",
-            "score": 17
+            "score": 53
         }
     ]
 }

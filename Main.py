@@ -1,6 +1,6 @@
 import pygame
 import random, sys, time
-import levels
+import modules
 from pygame.locals import *
 from LoadTextures import Tiles
 from Figur import Figur
@@ -178,7 +178,7 @@ while mainloop2:
                         ):
                         game_mode = 2
                         mainscreen = False
-                        Levels = [levels.Modules.Tutorial]
+                        Levels = [modules.Modules.Tutorial]
                         Levels2 = Levels
                         Bilder = ["Comic1.png", "Comic2.png", "Comic3.png"]
                         SpielFeld.fill(SCHWARZ)
@@ -298,14 +298,14 @@ while mainloop2:
     start_x = 0
 
     if game_mode == 1:
-        Levels = [levels.Modules.c]#, levels.Modules.cheat]
-        Levels2 = [levels.Modules.c]#, levels.Modules.cheat]
+        Levels = [modules.Modules.c]#, modules.Modules.cheat]
+        Levels2 = [modules.Modules.c]#, modules.Modules.cheat]
 
         Level_coords = []
 
         for i in range(5):
-            Levels.append(random.choice(levels.Modules.Levels))
-            Levels2.append(random.choice(levels.Modules.Levels))
+            Levels.append(random.choice(modules.Modules.Levels))
+            Levels2.append(random.choice(modules.Modules.Levels))
 
     ##Falsch Eingerückt --> Einrückung überbrücken
     while mainloop:
@@ -447,7 +447,7 @@ while mainloop2:
                         #sys.stdout.write(" ")
                         
                     if i == "\n":
-                        if counter != 0 and counter != len(levels.Modules.a):
+                        if counter != 0 and counter != len(modules.Modules.a):
                             #sys.stdout.write(5 * " " + str(counter2 + 1))
                             #print()
                             counter2 += 1
@@ -565,8 +565,8 @@ while mainloop2:
             
                 
             if x - 50 * Size < Figur.x and game_mode == 1:
-                Levels.append(random.choice(levels.Modules.Levels))
-                Levels2.append(random.choice(levels.Modules.Levels))
+                Levels.append(random.choice(modules.Modules.Levels))
+                Levels2.append(random.choice(modules.Modules.Levels))
                 a = Levels2.pop(0)
                 start_x += level_length * Size
     
@@ -693,7 +693,7 @@ while mainloop2:
                         #sys.stdout.write(" ")
                         
                     if i == "\n":
-                        if counter != 0 and counter != len(levels.Modules.a):
+                        if counter != 0 and counter != len(modules.Modules.a):
                             #sys.stdout.write(5 * " " + str(counter2 + 1))
                             #print()
                             counter2 += 1

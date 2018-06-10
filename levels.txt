@@ -1,0 +1,24 @@
+{
+    "levels": [
+        {
+            "Map":  [
+		"SSSSSSSSSSS",
+		"aaaaaaaaaaa",
+		"aaaaaaaaaaa",
+		"aaaaaaaaaaa",
+		"aaaaaaaaaaa",
+		"aaaaaaaaaaa",
+		"SSSSSSSSSSS",
+		"SSSSSSSSSSS"
+	    ],
+
+            "Tags": [
+		 {"type": "Lever", "c1": [3, 5], "c2": [4, 6]},
+		 {"type": "Pressure_Plate", "c1": [5, 6], "c2": [4, 6]},
+		 {"type": "Door", "c": [4, 6]},
+		 {"type": "Lever", "c1": [2, 5], "c2": [4, 6]}
+
+	    ]
+        }
+    ]
+}

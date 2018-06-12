@@ -14,13 +14,13 @@ while running:
         if event.type == KEYDOWN:
             key = event.key
             if key in Key.Keys["forward"]:
-                print("Forward")
+                print("%s (Forward)" % int_to_key(event.key))
                 
             elif key in Key.Keys["backward"]:
-                print("Backward")
+                print("%s (Backward)" % int_to_key(event.key))
                 
             elif key in Key.Keys["jump"]:
-                print("Jump")
+                print("%s (Jump)" % int_to_key(event.key))
                 
             else:
                 print(int_to_key(event.key))

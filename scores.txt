@@ -26,19 +26,19 @@
         },
         {
             "name": "Name",
+            "score": 102
+        },
+        {
+            "name": "Name",
+            "score": 100
+        },
+        {
+            "name": "Name",
             "score": 76
         },
         {
             "name": "Name",
             "score": 73
-        },
-        {
-            "name": "Name",
-            "score": 55
-        },
-        {
-            "name": "Name",
-            "score": 51
         }
     ]
 }
